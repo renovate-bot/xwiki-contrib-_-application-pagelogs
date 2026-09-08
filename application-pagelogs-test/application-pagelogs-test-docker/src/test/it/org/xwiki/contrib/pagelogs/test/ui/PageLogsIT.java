@@ -17,23 +17,21 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
-package org.xwiki.contrib.latex.test.ui;
+package org.xwiki.contrib.pagelogs.test.ui;
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
 import org.xwiki.test.docker.junit5.UITest;
 
 /**
- * All UI tests for the Page Logs feature.
+ * Verify the ability to view page logs.
  *
- * @version $Id$
+ * @version $Id: 4ec9fafbe8b7b043c145f37d2fa753eadec6e17b $
  */
 @UITest
-public class AllIT
+public class PageLogsIT
 {
-    @Nested
-    @DisplayName("Page Logs")
-    class NestedPageLogsIT extends PageLogsIT
+    @Test
+    public void vierwLogs()
     {
     }
 }
